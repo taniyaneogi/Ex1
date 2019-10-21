@@ -1,0 +1,28 @@
+body{
+ margin: 2em;
+ background-color: fff;
+}
+
+img {
+  max-width: 50%;
+  float: left;
+  padding-right: 2em;
+}
+
+
+div{
+  margin-top: 3em;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+img{
+  max-width; 7em;
+  float: none;
+}
+
+  body {
+    background-color: lightblue;
+  }
+}
